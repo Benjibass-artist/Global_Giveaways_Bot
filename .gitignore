@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local configs/secrets
+.env
+
+# Bot runtime state
+data/state.json
+data/channels.json
+
+# Local example and dev scripts (not needed in repo)
+config_example.env
+scrape.py
+state.py
+view_soup.py
+sources.json
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
